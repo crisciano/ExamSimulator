@@ -1,0 +1,520 @@
+1 - Qual serviço um cliente pode usar para configurar uma conta de pagador administrativo para visualizar relatórios de cobrança consolidados?
+
+A - AWS Budgets
+B - Amazon Macie
+C - Amazon QuickSight
+D - AWS Organizations
+
+2 - Uma empresa quer hospedar seus bancos de dados relacionais na AWS. Os bancos de dados têm esquemas predefinidos que a empresa precisa replicar na AWS.
+
+Quais serviços da AWS a empresa poderia usar para os bancos de dados? (Selecione DUAS.)
+
+A - Amazon Aurora
+B - Amazon RDS
+C - Amazon DocumentDB (compatível com MongoDB)
+D - Amazon Neptune
+E - Amazon DynamoDB
+
+3 - Depois de selecionar uma reserva de host dedicado do Amazon EC2, qual opção de preço forneceria o maior desconto?
+
+A - Sem pagamento antecipado
+B - Pagamento por hora sob demanda
+C - Pagamento antecipado parcial
+D - Pagamento antecipado total
+
+4 - Uma empresa quer melhorar sua postura de segurança e auditoria limitando o acesso de entrada do Amazon EC2.
+
+O que a empresa deve usar para acessar instâncias remotamente em vez de abrir portas SSH de entrada e gerenciar chaves SSH?
+
+A - Pares de chaves do EC2
+B - Session Manager do AWS Systems Manager
+C - AWS Identity and Access Management (IAM)
+D - ACLs de rede
+
+5 - Qual opção é um recurso fundamental do AWS Cloud Adoption Framework (AWS CAF) para a perspectiva das operações?
+
+A - Gerenciamento de desempenho e capacidade
+B - Gerenciamento de portfólio de aplicações
+C - Identity and Access Management
+D - Gerenciamento de produtos
+
+6 - Qual serviço da AWS pode ajudar uma empresa a detectar uma interrupção nos servidores do site e redirecionar os usuários para servidores alternativos?
+
+A - Amazon CloudFront
+B - Amazon GuardDuty
+C - Amazon Route 53
+D - AWS Trusted Advisor
+
+7 - Qual serviço de banco de dados da AWS fornece armazenamento de dados na memória?
+
+A - Amazon DynamoDB
+B - Amazon ElastiCache
+C - Amazon RDS
+D - Amazon Timestream
+
+8 - Qual é uma responsabilidade da AWS de acordo com o modelo de responsabilidade compartilhada da AWS?
+
+A - Projetar a aplicação de um cliente para recuperação de desastres.
+B - Atualizar os sistemas operacionais convidados em instâncias do Amazon EC2 implantadas.
+C - Configurar novos recursos em uma conta da AWS.
+D - Proteger a infraestrutura física.
+
+9 - Cite um exemplo de alta disponibilidade na nuvem AWS.
+
+A - Consultar o suporte técnico da AWS a qualquer hora do dia
+B - Garantir que uma aplicação permaneça acessível, mesmo que ocorra uma falha em um recurso
+C - Disponibilizar qualquer serviço da AWS para uso pagando sob demanda
+D - Implantar em qualquer parte do mundo usando regiões AWS
+
+10 - Uma empresa não possui um data center físico, mas precisa de uma solução de rede que conecte os laptops dos funcionários diretamente à nuvem AWS.
+
+Qual serviço da AWS atenderá a esse requisito?
+
+A - AWS Outposts
+B - AWS Client VPN
+C - AWS Snowball Edge
+D - Amazon CloudFront
+
+11 - Qual serviço da AWS oferece uma maneira simples de configurar um novo ambiente da AWS com várias contas e governá-lo em grande escala?
+
+A - AWS Trusted Advisor
+B - AWS Security Hub
+C - AWS Control Tower
+D - AWS Resource Access Manager
+
+12 - Quais das seguintes são as práticas de segurança recomendadas para usar o AWS Identity and Access Management (IAM)? (Selecione DUAS.)
+
+A - Usar as credenciais de usuário-raiz da conta da AWS para tarefas do IAM.
+B - Trocar as credenciais regularmente.
+C - Não remover as credenciais, mesmo que elas nunca sejam usadas.
+D - Habilitar a autenticação com multifator (MFA).
+E - Usar políticas em linha em vez de políticas gerenciadas pelo cliente.
+
+13 - Qual serviço computacional da AWS é sem servidor?
+
+A - Amazon EC2
+B - AWS Lambda
+C - Amazon RDS
+D - Amazon Elastic Container Service (Amazon ECS)
+
+14 - Qual é a prática recomendada da AWS para gerenciar um usuário-raiz da conta da AWS?
+
+A - Compartilhar a senha do usuário-raiz com a equipe de operações.
+B - Ativar autenticação com multifator (MFA) para o usuário-raiz.
+C - Criar uma chave de acesso para o usuário-raiz.
+D - Não alternar a senha do usuário-raiz.
+
+15 - Quais tarefas são de responsabilidade do cliente de acordo com o modelo de responsabilidade compartilhada da AWS? (Selecione DUAS.)
+
+A - Corrigir o sistema operacional convidado.
+
+B - Proteger fisicamente o hardware do data center.
+C - Corrigir o hardware da rede.
+D - Configurar firewalls.
+E - Descomissionar dispositivos de armazenamento obsoletos.
+
+16 - Uma aplicação está recebendo ataques de injeção SQL de vários recursos externos.
+
+Qual serviço ou recurso da AWS pode ajudar a automatizar a mitigação desses ataques?
+
+A - AWS WAF
+B - Grupos de segurança
+C - Elastic Load Balancing (ELB)
+D - ACL de rede
+
+17 - Quais são as características dos usuários e grupos do IAM da AWS? (Selecione DUAS.)
+
+A - Os grupos podem ser aninhados e podem conter outros grupos.
+B - Um usuário pode ser membro de vários grupos.
+C - Os grupos podem conter somente usuários e não podem ser aninhados.
+D - Um usuário só pode ser membro de um único grupo ao mesmo tempo.
+E - Todos os usuários novos são adicionados automaticamente a um grupo padrão. 
+
+18 - Uma empresa precisa executar uma aplicação em instâncias do Amazon EC2. A carga de trabalho em execução não pode ser interrompida. A empresa precisa de uma opção de compra de instâncias que não exija nenhum compromisso.
+
+Qual opção de compra de instância atenderá a esses requisitos de forma MAIS econômica?
+
+A - Instâncias sob demanda
+B - Spot Instances
+C - Hosts dedicados
+D - Instâncias reservadas
+
+19 - Qual serviço ou ferramenta da AWS uma empresa pode usar para visualizar, entender e gerenciar os gastos e o uso da AWS ao longo do tempo?
+
+A - AWS Trusted Advisor
+B - Amazon CloudWatch
+C - AWS Cost Explorer
+D - AWS Budgets
+
+20 - Quais das seguintes são características das regiões e zonas de disponibilidade da AWS? (Selecione DUAS.)
+
+A - As regiões levam os serviços da AWS para instalações on-premises.
+B - As regiões consistem em várias zonas de disponibilidade.
+C - Uma zona de disponibilidade contém várias regiões.
+D - As regiões estão a 100 km (60 milhas) umas das outras.
+E - As regiões estão localizadas em todo o mundo.
+
+21 - Qual benefício da AWS permite que os usuários implantem uma infraestrutura de nuvem que consiste em várias regiões geográficas conectadas por uma rede com baixa throughput, alta taxa de transferência e redundância?
+
+A - Economias de escala
+B - Segurança
+C - Elasticidade
+D - Alcance global
+
+22 - Uma empresa quer garantir que duas instâncias do Amazon EC2 estejam em data centers separados com latência mínima de comunicação entre os data centers.
+
+Como a empresa pode atender a esses requisitos?
+
+A - Colocar as instâncias do EC2 em duas regiões AWS separadas conectadas a uma conexão de peering de VPC.
+B - Colocar as instâncias do EC2 em duas zonas de disponibilidade separadas na mesma região da AWS.
+C - Colocar uma instância do EC2 on-premises e a outra em uma região da AWS. Em seguida, conectá-las usando uma conexão VPN da AWS.
+D - Colocar as duas instâncias do EC2 em um grupo de posicionamento para obter largura de banda dedicada.
+
+23 - Uma empresa tem licenças de software existentes que deseja trazer para a AWS, mas o modelo de licenciamento exige o licenciamento de núcleos físicos.
+
+Como a empresa pode atender a esse requisito na nuvem AWS?
+
+A - Iniciar uma instância do Amazon EC2 com tenancy padrão.
+B - Iniciar uma instância do Amazon EC2 em um host dedicado.
+C - Criar uma reserva de capacidade sob demanda.
+D - Comprar instâncias reservadas dedicadas.
+
+Um desenvolvedor web teme que um ataque de DDoS possa atingir uma aplicação.
+
+Quais serviços ou recursos da AWS podem ajudar na proteção contra esse tipo de ataque? (Selecione DUAS.)
+
+A - AWS Shield
+B - AWS CloudTrail
+C - Amazon CloudFront
+D - AWS Support
+E - AWS Health Dashboard
+
+25 - Qual princípio de design de arquitetura se aplica ao conceito de dimensionamento correto da infraestrutura da nuvem AWS?
+
+A - Escalar horizontalmente para aumentar a disponibilidade da carga de trabalho.
+B - Otimizar para fins de custo.
+C - Fazer alterações frequentes, pequenas e reversíveis.
+D - Executar operações como código.
+
+Uma empresa quer monitorar continuamente a atividade da conta da AWS, incluindo ações realizadas por meio do Console de Gerenciamento AWS, kits de desenvolvimento de software (SDKs) da AWS e ferramentas de linha de comando.
+
+Qual serviço da AWS atende a esses requisitos?
+
+A - AWS Trusted Advisor
+B - Amazon Inspector
+C - Amazon CloudWatch
+D - AWS CloudTrail
+
+Uma empresa precisa auditar seus recursos da AWS. A empresa deve documentar todas as alterações feitas nos recursos.
+
+Qual serviço da AWS atenderá a esses requisitos?
+
+A - AWS Artifact
+B - AWS Config
+C - Amazon Inspector
+D - Amazon CloudWatch
+
+28 - Qual serviço da AWS deve ser usado para monitorar as instâncias do Amazon EC2 quanto à utilização da CPU e da rede?
+
+A - Amazon Inspector
+B - AWS CloudTrail
+C - Amazon CloudWatch
+D - AWS Config
+
+29 - Um usuário tem petabytes de dados para migrar para a AWS de uma área onde conexões de rede de alta velocidade não são possíveis.
+
+Qual serviço é a maneira mais RÁPIDA de transferir os dados?
+
+A - Amazon S3
+B - AWS Batch
+C - AWS Snowball Edge
+D - AWS VPN
+
+30 - Uma empresa precisa transferir 60 TB de dados para a nuvem AWS de forma segura.
+
+Qual das seguintes opções a empresa deve usar para atender a esses requisitos?
+
+A - AWS Snowball Edge
+B - Amazon Elastic Block Store (Amazon EBS)
+C - Amazon Elastic File System (Amazon EFS)
+D - Amazon S3
+
+31 - Um profissional de nuvem está desenvolvendo um plano de recuperação de desastres e pretende replicar dados entre várias áreas geográficas.
+
+Qual componente da Nuvem AWS a empresa deve usar para atender a esses requisitos?
+
+A - Contas da AWS
+B - Regiões AWS
+C - Zonas de disponibilidade
+D - Locais de borda
+
+32 - De acordo com o modelo de responsabilidade compartilhada da AWS, quais das seguintes tarefas são responsabilidades da AWS? (Selecione DUAS.)
+
+A - A segurança física das instalações da AWS.
+B - A criptografia dos dados do cliente.
+C - A correção e atualização do hipervisor.
+D - A correção dos sistemas operacionais no Amazon EC2.
+E - A definição de firewalls de rede dentro da VPC.
+
+33 - Uma empresa de varejo on-line tem picos sazonais de vendas várias vezes ao ano, principalmente nos feriados. A demanda é menor em outros momentos. A empresa acha difícil prever o aumento da demanda por infraestrutura em cada temporada.
+
+Quais vantagens de migrar para a nuvem AWS MAIS beneficiariam a empresa? (Selecione DUAS.)
+
+A - Presença global
+B - Elasticidade
+C - AWS Service Quotas
+D - Modelo de responsabilidade compartilhada da AWS
+E - Pagamento conforme o uso
+
+34 - Qual serviço da AWS pode gerar uma descoberta quando informações de identificação pessoal (PII) são armazenadas em um bucket do Amazon S3?
+
+A - Amazon GuardDuty
+B - Amazon Macie
+C - Amazon Inspector
+D - AWS Trusted Advisor
+
+35 - Qual serviço da AWS pode ser usado para migrar um banco de dados on-premises ativo para a nuvem AWS?
+
+A - AWS Storage Gateway
+B - AWS Application Migration Service
+C - AWS DataSync
+D - AWS Database Migration Service (AWS DMS)
+
+36 - Uma empresa tem uma aplicação stateless que pode lidar com interrupções. A aplicação deve estar disponível durante todo o dia e a noite. O tráfego aumenta muito durante o horário comercial.
+
+Quais tipos de instância de tráfego básico e de pico são MAIS econômicos para atender a esses requisitos?
+
+A - Instâncias reservadas para o tráfego básico e de pico
+B - Instâncias reservadas para tráfego básico e Spot Instances para tráfego de pico usando uma Amazon EC2 Fleet
+C - Instâncias sob demanda para tráfego básico e instâncias sob demanda com auto scaling para pico de tráfego
+D - Instâncias sob demanda para tráfego básico e Spot Instances para pico de tráfego usando uma Amazon EC2 Fleet
+
+37 - Qual é a prática recomendada do IAM para chaves de acesso do usuário-raiz à conta da AWS?
+
+A - Excluir todas as chaves de acesso do usuário-raiz, se possível.
+B - Usar credenciais de usuário-raiz para acessar informações confidenciais armazenadas na AWS.
+C - Permitir que o grupo de administradores do sistema use as credenciais do usuário-raiz para acesso diário.
+D - Usar credenciais de usuário-raiz para acessar instâncias do banco de dados de produção.
+
+38 - Qual responsabilidade é compartilhada entre o usuário e a AWS?
+
+A - Fornecer uma chave para a criptografia do lado do cliente do chave Amazon S3
+B - Configurar uma instância do Amazon EC2
+C - Controlar o ambiente dos data centers físicos da AWS
+D - Oferecer conscientização e treinamento
+
+39 - Quais tarefas exigem o uso do usuário-raiz da conta da AWS? (Selecione DUAS.)
+
+A - Restaurar as permissões de administrador do IAM
+B - Modificar um tipo de instância do Amazon EC2
+C - Agrupar recursos no AWS Systems Manager
+D - Executar aplicações no Amazon Elastic Kubernetes Service (Amazon EKS)
+E - Fechar uma conta da AWS
+
+40 - Qual das seguintes opções ajudará o usuário a determinar se precisa solicitar um aumento do limite do serviço da VPC?
+
+A - AWS Health Dashboard
+B - AWS Trusted Advisor
+C - AWS relatório de uso e custo
+D - AWS Service Catalog
+
+41 - Uma empresa precisa ter acesso aos engenheiros de suporte em nuvem 24 horas por dia, 7 dias por semana.
+
+Qual é o plano de suporte MAIS barato da AWS que atende a esse requisito?
+
+A - AWS Basic Support
+B - AWS Business Support
+C - AWS Developer Support
+D - AWS Enterprise Support
+
+42 - Uma grande empresa tem uma carga de trabalho que exige que o hardware permaneça on-premises. A empresa quer usar os mesmos serviços de plano de gerenciamento e controle que usa atualmente na AWS.
+
+Qual serviço da AWS a empresa pode usar para atender a esses requisitos?
+
+A - AWS Device Farm
+B - AWS Fargate
+C - AWS Outposts
+D - AWS Ground Station
+
+43 - Quais princípios de design da nuvem AWS podem ajudar a aumentar a confiabilidade? (Selecione DUAS.)
+
+A - Usar a arquitetura monolítica
+B - Avaliar a eficiência geral
+C - Testar procedimentos de recuperação
+D - Adotar um modelo de consumo
+E - Recuperar-se automaticamente de falhas
+
+44 - Qual recurso pode ser usado para proteger os buckets do Amazon S3 contra substituições ou exclusões acidentais?
+
+A - Políticas de ciclo de vida
+B - Versionamento de bucket
+C - Criptografia do lado do servidor
+D - Pontos de acesso do S3
+
+45 - Qual serviço da AWS usa Machine Learning para identificar dados sigilosos armazenados nos buckets do Amazon S3?
+
+A - Amazon Personalize
+B - Amazon Macie
+C - AWS CodePipeline
+D - AWS CodeArtifact
+
+46 - Quais dos seguintes são princípios de segurança no AWS Well-Architected Framework? (Selecione DUAS.)
+
+A - Analisar e atribuir gastos.
+B - Monitorar, alertar e auditar ações e alterações nos recursos da AWS.
+C - Implantação global em questão de minutos.
+D - Proteger dados em trânsito e em repouso.
+E - Executar operações como código.
+
+47 - Uma empresa hospeda uma aplicação em uma instância do Amazon EC2. A instância EC2 precisa acessar vários recursos da AWS, incluindo o Amazon S3 e o Amazon DynamoDB.
+
+Qual é a solução MAIS eficiente operacionalmente para delegar permissões?
+
+A - Criar um perfil do IAM com as permissões necessárias. Anexar a função do IAM à instância EC2.
+B - Criar um usuário do IAM e usar sua chave de acesso e chave de acesso secreta na aplicação.
+C - Criar um usuário do IAM e usar sua chave de acesso e chave de acesso secreta para criar um perfil de CLI na instância EC2.
+D - Criar um perfil do IAM com as permissões necessárias. Anexar a função ao usuário administrativo do IAM.
+
+48 - Um desenvolvedor precisa acessar os recursos da AWS a partir da AWS CLI.
+
+Qual recurso do AWS Identity and Access Management (IAM) o desenvolvedor pode usar para autenticação?
+
+A - Chaves de acesso do IAM
+B - Políticas do IAM
+C - Chaves SSH
+D - As políticas de senha da conta
+
+49 - Uma empresa está mudando seu escritório e deve estabelecer uma conexão criptografada com a AWS.
+
+Qual serviço da AWS atenderá a esse requisito?
+
+A - AWS VPN
+B - Amazon Route 53
+C - AWS Direct Connect
+D - Amazon Connect
+
+50 - ual serviço da AWS pode hospedar um site estático?
+
+A - Amazon S3
+B - Amazon Route 53
+C - Amazon QuickSight
+D - AWS X-Ray
+
+51 - Qual serviço ou recurso da AWS um desenvolvedor pode usar para acessar os serviços da AWS de forma programática?
+
+A - AWS Management Console
+B - Kits de desenvolvimento de software (SDKs) da AWS
+C - AWS CodeDeploy
+D - AWS CodePipeline
+
+52 - Qual plano do AWS Support inclui um Technical Account Manager (TAM) designado da AWS?
+
+A - AWS Business Support
+B - AWS Enterprise Support
+C - AWS Basic Support
+D - AWS Developer Support
+
+53 - Quais serviços ou recursos da AWS podem controlar o tráfego da VPC? (Selecione DUAS.)
+
+A - Grupos de segurança
+B - AWS Direct Connect
+C - Amazon GuardDuty
+D - ACLs de rede
+E - Amazon Connect
+
+54 - Uma empresa quer criar uma aplicação de data analytics que use o Amazon Redshift. A empresa precisa de uma estimativa de custo para o uso futuro do Amazon Redshift.
+
+Qual ferramenta da AWS fornecerá uma estimativa de custo de alto nível?
+
+A - AWS Budgets
+B - AWS Pricing Calculator
+C - AWS Cost Explorer
+D - Savings Plans
+
+55 - De acordo com o modelo de responsabilidade compartilhada da AWS, qual tarefa é de responsabilidade da AWS para as cargas de trabalho executadas no Amazon EC2?
+
+A - Atualizar o hardware físico
+B - Atualizar o sistema operacional
+C - Atualizar o mecanismo de banco de dados
+D - Atualizar os dados do usuário
+
+56 - Uma empresa está lançando uma nova aplicação na nuvem AWS. A aplicação será executada em uma instância do EC2. Mais instâncias do EC2 serão necessárias quando a carga de trabalho aumentar.
+
+Qual serviço ou ferramenta da AWS a empresa pode usar para executar o número de instâncias do EC2 que serão necessárias para lidar com a carga de trabalho?
+
+A - Elastic Load Balancing (ELB)
+B - Amazon EC2 Auto Scaling
+C - AWS App2Container (A2C)
+D - AWS Systems Manager
+
+57 - Uma empresa possui uma instância do Amazon EC2 que deve acessar o AWS Secrets Manager para recuperar credenciais.
+
+Qual identidade ou serviço é exigido pela instância do EC2 para realizar a tarefa?
+
+A - Autenticação com multifator (MFA)
+B - Perfil do IAM
+C - Grupo do IAM
+D - Grupos de segurança
+
+58 - Uma empresa quer que seus funcionários tenham acesso à infraestrutura de desktop virtual para acessar com segurança os desktops fornecidos pela empresa por meio dos dispositivos pessoais dos funcionários.
+
+Qual serviço da AWS a empresa pode usar para atender a esses requisitos?
+
+A - Amazon AppStream 2.0
+B - AWS AppSync
+C - Amazon FSx for Windows File Server
+D - Amazon WorkSpaces
+
+59 - De acordo com o modelo de responsabilidade compartilhada da AWS, quais tarefas de segurança são de responsabilidade do cliente? (Selecione DUAS.)
+
+A - Segurança de locais de borda
+B - Criptografia de dados do lado do cliente
+C - Segurança de hardware nas regiões AWS
+D - Segurança de rede de infraestrutura global da AWS
+E - Integridade dos dados do cliente
+
+60 - Um sistema se recupera automaticamente de uma falha quando uma empresa lança sua carga de trabalho na plataforma de serviços em nuvem AWS.
+
+Qual pilar do AWS Well-Architected Framework essa situação demonstra?
+
+A - Confiabilidade
+B - Otimização de custos
+C - Eficiência de desempenho
+D - Excelência operacional
+
+61 - Qual é a vantagem de migrar para a nuvem AWS em termos de melhorar o tempo de lançamento no mercado?
+
+A - Velocidade de implantação reduzida
+B - Maior segurança para a aplicação
+C - Maior agilidade empresarial
+D - Capacidades de backup aprimoradas
+
+62 - Qual benefício o Amazon Rekognition oferece?
+
+A - A capacidade de colocar marcas d'água nas imagens
+B - A capacidade de detectar objetos que aparecem nas imagens
+C - A capacidade de redimensionar milhões de imagens automaticamente
+D - A capacidade de disputar trabalhos de detecção de objetos
+
+63 - Uma empresa tem uma aplicação web Java. A empresa quer usar a implantação automática para criar o ambiente da AWS e implantar novas versões de sua aplicação.
+
+Qual serviço da AWS atenderá a esses requisitos?
+
+A - AWS Auto Scaling
+B - AWS Elastic Beanstalk
+C - AWS Control Tower
+D - Amazon EC2
+
+64 - Qual das opções a seguir é um benefício de se usar um serviço gerenciado da AWS?
+
+A - Redução da sobrecarga operacional para a equipe de TI de uma empresa
+B - Aumento dos custos fixos que podem ser previstos por uma equipe financeira
+C - Eliminação da necessidade de ter uma estratégia de backup
+D - Eliminação da necessidade de seguir os padrões de conformidade
+
+65 - Qual serviço da AWS oferece o meio MAIS econômico de armazenar imagens estáticas?
+
+A - Amazon S3
+B - Amazon DynamoDB
+C - AWS Snowball Edge
+D - Amazon Elastic Block Store (Amazon EBS)
