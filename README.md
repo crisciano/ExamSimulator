@@ -22,14 +22,12 @@ O projeto consiste em uma arquitetura RAG com IA utilizando recursos da AWS.
     - desenvolvimento do front
     - teste do front
 - Vídeo 3
-    - extra, multiplas extensions
-    - alteração no back
-    - alteração no front
+    - multiplas extensions
     - remover o arquivo temporário
     - criar um versionamento no git
-    - deploy AWS ec2
     - criar a instancia ec2
     - liberar a porta 8501-8505
+    - deploy AWS ec2
 
 ## V1.2 - Configuração do ambiente virtual
 Venv e um "ambiente vitual" para o nosso projeto. 
@@ -76,11 +74,52 @@ Verificar se os modelos estão liberados na AWS
 ```
 
 ## EXTRA
+acesso ssh 
+```
+ssh -i "ExamSimulator.pem" ubuntu@ec2-44-210-131-117.compute-1.amazonaws.com
+```
+atualizando o ec2
+```
+sudo apt update
+```
+baixando o repositorio
+```
+git clone url-repo
+```
+installar o pip
+```
+sudo apt install python3-pip
+```
+installar o venv
+```
+sudo apt install python3-venv
+```
+criar o ambiente virtual com o venv
+``` 
+python3 -m venv venv
+``` 
+ativar o venv
+```
+source venv/bin/activate
+```
 instalar todas as bibliotecas
 ```
-pip install -r .\require.txt
+pip install -r require.txt
 ```
-## run front
+rodando no servidor
+```
+nohup python3 -m streamlit run frontend.py &
+```
+checar a porta se esta rodando certo
+```
+sudo lsof -i :8501
+```
+kill port
+```
+fuser -k 8501/tcp
+```
+
+## run front local
 ```
 streamlit run frontend.py
 ```
