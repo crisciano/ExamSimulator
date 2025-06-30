@@ -5,10 +5,14 @@ import time
 # criar configurar a pagina
 st.set_page_config(
     page_title="Exam Simulator", 
-    page_icon=":books::parrot:", 
+    page_icon="📝",
     layout="wide")
 
-st.title('Exam Simulator')
+st.title('📝 Exam Simulator')
+
+# Inicializar chave do uploader se não existir
+if 'uploader_key' not in st.session_state:
+    st.session_state.uploader_key = 0
 
 # criar um sidebar para upload de arquivos
 with st.sidebar:
@@ -16,8 +20,24 @@ with st.sidebar:
     files = st.file_uploader(
         label="Faça o uploado do seu arquivo txt ou pdf.",
         accept_multiple_files=True,
-        type=["txt", "pdf"]
+        type=["txt", "pdf"],
+        key=f"file_uploader_{st.session_state.uploader_key}"
     )
+
+    # Botão para limpar cache
+    if st.button("🔄 Limpar Cache"):
+        bk.clear_cache()
+        # Incrementar a chave do uploader para resetá-lo
+        st.session_state.uploader_key += 1
+        # Limpar também o cache do Streamlit
+        for key in list(st.session_state.keys()):
+            if key not in ['uploader_key']:
+                st.session_state.pop(key)
+            if key in st.session_state:
+                del st.session_state[key]
+                # st.session_state.pop(key)
+        # Forçar rerun para limpar upload
+        st.rerun()
 
     st.subheader('Informações')
     st.write(f"Modelo de embedding: `{bk.embedding_model_id}`")
@@ -25,7 +45,8 @@ with st.sidebar:
     st.write(f"Desenvolvido: `crisciano.botelho`")
 
 if files:
-    file_source = files
+    if 'files' not in st.session_state:
+        st.session_state.files = files
     st.success(f"Usando {len(files)} arquivo(s) enviados(s)")
 else:
     st.warning('Por favor, faça o upload de um arquivo.')
@@ -37,7 +58,7 @@ if 'db' not in st.session_state:
         start_time= time.time()
 
         try:
-            st.session_state.db = bk.init_db(file_source)
+            st.session_state.db = bk.init_db(st.session_state.files)
             end_time = time.time()
             st.success(f"Vector store carregado em {end_time - start_time:.2f} segundos")
         except Exception as e:

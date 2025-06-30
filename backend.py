@@ -229,8 +229,13 @@ def retriavel(question, db, llm):
 
     return answer
 
-
-
+def clear_cache():
+    global db_cache
+    if 'db_cache' in globals():
+        db_cache = None
+    global memory_store
+    if 'memory_store' in globals():
+        memory_store = InMemoryStore()
 
 # testes
 # docs = data_loader(path_files=path_files)
